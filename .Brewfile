@@ -1,10 +1,3 @@
-# Taps
-tap 'homebrew/cask'
-tap 'homebrew/cask-eid'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
-tap 'homebrew/bundle'
-
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
