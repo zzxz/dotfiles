@@ -39,17 +39,23 @@ brew upgrade
 # brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim
-
-# Install other useful binaries.
-brew install git
-brew install git-lfs
-brew install imagemagick --with-webp
-brew install pigz
+brew install vim git git-lfs imagemagick pigz nvm
 
 # Install some fonts
 brew tap homebrew/cask-fonts
 brew cask install font-terminus
 
+# Install some apps
+[ ! -d "/Applications/Google Chrome.app" ] && brew cask install google-chrome
+[ ! -d "/Applications/Brave Browser.app" ] && brew cask install brave-browser
+[ ! -d "/Applications/Firefox.app" ] && brew cask install firefox
+[ ! -d "/Applications/Visual Studio Code.app" ] && brew cask install visual-studio-code
+[ ! -d "/Applications/Alfred 4.app" ] && brew cask install alfred
+
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# NVM Tasks
+source ~/.zshrc
+nvm install --lts=erbium
+npm install -g @microsoft/rush
