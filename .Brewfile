@@ -1,4 +1,7 @@
+tap 'homebrew/cask-fonts'
+
 # Binaries
+brew 'git'
 brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
@@ -18,6 +21,7 @@ cask 'alfred'
 cask 'docker'
 cask 'firefox'
 cask 'google-chrome'
+cask 'brave-browser'
 cask 'slack'
 cask 'visual-studio-code'
 

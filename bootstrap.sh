@@ -25,5 +25,3 @@ else
 	fi;
 fi;
 unset doIt;
-
-./brew.sh

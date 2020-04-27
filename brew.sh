@@ -7,6 +7,7 @@ if [[ $? != 0 ]] ; then
 fi
 
 echo "\nInstalling Brewfile..."
+brew bundle install --global
 
 # NVM Tasks
 source ~/.zshrc
