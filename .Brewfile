@@ -1,4 +1,5 @@
 tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 
 # Binaries
 brew 'git'
@@ -24,6 +25,9 @@ cask 'google-chrome'
 cask 'brave-browser'
 cask 'slack'
 cask 'visual-studio-code'
+cask 'adoptopenjdk8'
+
+brew 'jenkins-lts'
 
 cask 'font-lato'
 cask 'font-open-sans'
