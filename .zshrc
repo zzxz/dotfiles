@@ -6,3 +6,6 @@ export ADBLOCK=1
 export HOMEBREW_NO_ANALYTICS=1
 
 eval "$(starship init zsh)"
+
+alias n10="nvm use --lts=dubnium"
+alias n12="nvm use --lts=erbium"

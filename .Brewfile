@@ -55,3 +55,10 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-terminus'
 cask 'font-hack-nerd-font'
+
+tap 'epk/epk'
+cask 'font-sf-mono-nerd-font'
+
+tap 'koekeishiya/formulae'
+brew 'yabai'
+brew 'skhd'
